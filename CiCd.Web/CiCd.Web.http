@@ -1,0 +1,6 @@
+@CiCd.Web_HostAddress = http://localhost:5043
+
+GET {{CiCd.Web_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -17,6 +17,7 @@ namespace CiCd.Console
 
             while (!exit)
             {
+                
                 var choice = AnsiConsole.Prompt(
                     new SelectionPrompt<string>()
                         .Title("[bold blue]Git Configuration Menu[/]")
